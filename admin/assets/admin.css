@@ -1,0 +1,20 @@
+.has-submenu .submenu {
+    display: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.has-submenu.active .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    padding: 6px 0;
+    color: #d0d4db;
+    font-size: 14px;
+}
+
+.submenu a:hover {
+    color: #fff;
+}
